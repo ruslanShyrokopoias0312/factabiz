@@ -1,0 +1,6 @@
+# db config
+/sys/config/db.inc.php
+
+# System Files
+.DS_Store
+Thumbs.db
