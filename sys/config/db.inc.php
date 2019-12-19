@@ -61,7 +61,7 @@ $B['APP_URL'] = "http://factabiz.com";           //edit to your domain url, exam
 $B['GOOGLE_PLAY_LINK'] = "https://play.google.com/store/apps/details?id=ru.ifsoft.network";
 
 // Client ID. For more information, see the documentation, FAQ section
-
+  
 $B['CLIENT_ID'] = 2019;                                        //Client ID | For identify mobile application | Example: 12567 (see documentation. section: faq)
 
 // Stripe settings | Settings from Cross-Platform Mobile Payments | See documentation

@@ -1,8 +1,6 @@
 # db config
 /sys/config/db.inc.php
 
-# contants config
-
 # System Files
 .DS_Store
 Thumbs.db
