@@ -31,7 +31,7 @@ $B['APP_VERSION'] = "1";
 $B['APP_AUTHOR'] = "Demyanchuk Dmitry";
 $B['APP_VENDOR'] = "ifsoft.co.uk";
 
-// Paths to folders for storing images and videos. Do not change!
+// Paths to folders for storing images and videos. Do not change! 
 
 $B['MY_PHOTOS_PATH'] = "galery/";                       //don`t edit this option
 $B['PHOTO_PATH'] = "photo/";                            //don`t edit this option
