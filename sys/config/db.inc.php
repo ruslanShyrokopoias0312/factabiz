@@ -55,7 +55,7 @@ $B['APP_YEAR'] = "2019";                                // Year in footer
 
 $B['APP_HOST'] = "factabiz.com";                 //edit to your domain, example (WARNING - without http:// and www): yourdomain.com
 $B['APP_URL'] = "http://factabiz.com";           //edit to your domain url, example (WARNING - with http://): http://yourdomain.com
-
+    
 // Link to GOOGLE Play App in main page
 
 $B['GOOGLE_PLAY_LINK'] = "https://play.google.com/store/apps/details?id=ru.ifsoft.network";
