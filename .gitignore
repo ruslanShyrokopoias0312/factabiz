@@ -1,5 +1,5 @@
 # config
-#db.inc.php
+db.inc.php
 
 # System Files
 .DS_Store
