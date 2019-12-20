@@ -133,9 +133,27 @@
                             <p>
                                 <a class="fb-icon-btn fb-btn-large btn-facebook" href="/facebook/login">
                                     <span class="icon-container">
-                                        <i class="icon icon-facebook"></i>
+                                        <i class="icon fa fa-facebook fa-fw"></i>
                                     </span>
                                     <span><?php echo $LANG['action-login-with']." ".$LANG['label-facebook']; ?></span>
+                                </a>
+                                <a class="fb-icon-btn fb-btn-large btn-facebook" href="#" style="background-color: #dd4b39;">
+                                    <span class="icon-container">
+                                        <i class="icon fa fa-google fa-fw"></i>
+                                    </span>
+                                    <span><?php echo "Login with Google+" ?></span>
+                                </a>
+                                <a class="fb-icon-btn fb-btn-large btn-facebook" href="#" style="background-color: #55ACEE;">
+                                    <span class="icon-container">
+                                        <i class="icon fa fa-twitter fa-fw"></i>
+                                    </span>
+                                    <span><?php echo "Login with Twitter" ?></span>
+                                </a>
+                                <a class="fb-icon-btn fb-btn-large btn-facebook" href="#" style="background-color: #007BB6;">
+                                    <span class="icon-container">
+                                        <i class="icon fa fa-linkedin fa-fw"></i>
+                                    </span>
+                                    <span><?php echo "Login with Linkedin" ?></span>
                                 </a>
                             </p>
                             <?php
