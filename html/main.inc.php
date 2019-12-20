@@ -160,7 +160,7 @@
 
                     <div class="login100-more">
                         <div class="login100_content">
-                            <h1 class="mb-10">Create your own <?php echo APP_NAME; ?> App now!!!</h1>
+                            <h1 class="mb-10">Create your own <?php echo APP_NAME; ?> App now!</h1>
                             <p><?php echo $LANG['main-page-prompt-app']; ?></p>
                         </div>
                     </div>
