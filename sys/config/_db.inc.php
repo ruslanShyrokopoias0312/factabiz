@@ -35,6 +35,7 @@ $B['TEMP_PATH'] = "tmp/";                               //don`t edit this option
 $B['CHAT_IMAGE_PATH'] = "chat_images/";                 //don`t edit this option
 $B['MARKET_IMAGE_PATH'] = "market/";                    //don`t edit this option
 $B['GALLERY_PATH'] = "gallery/";                       //don`t edit this option
+$B['TERMS_PATH'] = "terms/";                            //don`t edit this option
 
 // Data for the title of the website and copyright
 

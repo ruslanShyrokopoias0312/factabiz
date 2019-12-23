@@ -51,6 +51,12 @@
                         <span class="hide-menu">Users and Communities</span>
                     </a>
                 </li>
+                <li>
+                    <a class="waves-effect waves-dark <?php if (isset($page_id) && $page_id === "terms") { echo "active";} ?>" href="/admin/terms" aria-expanded="false">
+                        <i class="ti-layout-list-post"></i>
+                        <span class="hide-menu">Terms & Condition</span>
+                    </a>
+                </li>
 
                 <li class="nav-devider"></li>
 
