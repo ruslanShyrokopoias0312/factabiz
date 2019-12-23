@@ -93,7 +93,7 @@
 
                         <div class="card">
                             <div class="card-body">
-                                <h4 class="card-title">1. Agreements Types- Contract Papers as Non- Registered Deed.</h4>
+                                <h4 class="card-title">1. Agreement Types- Contract Papers, e.g.:  Non- Registered Deed.</h4>
 
                                 <form class="form-material m-t-40"  method="post" action="/admin/terms" enctype="multipart/form-data">
 
@@ -181,7 +181,7 @@
 
                         <div class="card">
                             <div class="card-body">
-                                <h4 class="card-title">3. Contract Papers for Agents, Marchant, iC- Cafe Owners, Contractors.</h4>
+                                <h4 class="card-title">3. Contract Papers - Agents, Marchant, iC- Cafe Owners, Contractors.</h4>
 
                                 <form class="form-material m-t-40"  method="post" action="/admin/terms" enctype="multipart/form-data">
 
@@ -235,6 +235,49 @@
                                             
                                             if ( count(glob(TERMS_PATH.'4/*')) > 0 ) {
                                                 foreach( glob(TERMS_PATH.'4/*') as $fileName){ // iterate files
+                                                    if(is_file($fileName)) {
+                                                        echo '<label>File : '.basename($fileName).'</label>';
+                                                    }
+                                                }
+                                            } else {
+                                                echo '<label>File : No</label>';
+                                            }
+                                            
+                                        ?>
+                                        <input name="uploaded_file" type="file" class="form-control" id="exampleInputFile" aria-describedby="fileHelp">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="col-xs-12">
+                                            <button class="btn btn-info text-uppercase waves-effect waves-light" type="submit">Upload</button>
+                                        </div>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-12">
+
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">5. Other Terms / Documents</h4>
+
+                                <form class="form-material m-t-40"  method="post" action="/admin/terms" enctype="multipart/form-data">
+
+                                    <input type="hidden" name="authenticity_token" value="<?php echo helper::getAuthenticityToken(); ?>">
+                                    <input type="hidden" name="action"  value="5/">
+                                    <div class="form-group">
+                                        <?php 
+                                            
+                                            if ( count(glob(TERMS_PATH.'5/*')) > 0 ) {
+                                                foreach( glob(TERMS_PATH.'5/*') as $fileName){ // iterate files
                                                     if(is_file($fileName)) {
                                                         echo '<label>File : '.basename($fileName).'</label>';
                                                     }

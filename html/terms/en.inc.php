@@ -48,7 +48,7 @@ if (isset($_GET['action'])) {
 ?> 
 
 <section class="standard-page">
-    <h6>1. Agreements Types- Contract Papers as Non- Registered Deed.</h6>
+    <h6>1. Agreement Types- Contract Papers, e.g.:  Non- Registered Deed.</h6>
     <a class="btn btn-secondary btn-block text-white" href="?action=1/">
         Download the Deed Paper Sample & Relevant Terms               
     </a>
@@ -62,7 +62,7 @@ if (isset($_GET['action'])) {
 </section>
 
 <section class="standard-page">
-    <h6>3. Contract Papers for Agents, Marchant, iC- Cafe Owners, Contractors.</h6>
+    <h6>3. Contract Papers - Agents, Marchant, iC- Cafe Owners, Contractors.</h6>
     <a class="btn btn-secondary btn-block text-white" href="?action=3/">
         Download the contract Papers for iC-Cafe & Others         
     </a>
@@ -71,6 +71,13 @@ if (isset($_GET['action'])) {
 <section class="standard-page">
     <h6>4. Medical Services Terms.</h6>
     <a class="btn btn-secondary btn-block text-white" href="?action=4/">
+        Download the Medical Terms Documents               
+    </a>
+</section>
+
+<section class="standard-page">
+    <h6>5. Other Terms / Documents</h6>
+    <a class="btn btn-secondary btn-block text-white" href="?action=5/">
         Download the Medical Terms Documents               
     </a>
 </section>
