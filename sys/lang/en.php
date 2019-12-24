@@ -726,6 +726,8 @@
     $TEXT['label-user-id'] = "User ID";
     $TEXT['label-signup-invite'] = "User ID who invited you (optional)";
 
+    $TEXT['label-affiliate-code'] = "Add employee or agent affiliate code";
+
     // For version 4.1
 
     $TEXT['label-seen'] = "seen";

@@ -268,31 +268,20 @@
 
                                 ?>
 
-                                <p>
+                                <p style="margin-bottom: 0px;">
                                     <a class="fb-icon-btn fb-btn-large btn-facebook" href="/facebook/signup">
                                         <span class="icon-container">
                                             <i class="icon fa fa-facebook fa-fw"></i>
                                         </span>
                                         <span><?php echo $LANG['action-signup-with'] . " " . $LANG['label-facebook']; ?></span>
                                     </a>
-                                    <a class="fb-icon-btn fb-btn-large btn-facebook" href="#" style="background-color: #dd4b39;">
-                                        <span class="icon-container">
-                                            <i class="icon fa fa-google fa-fw"></i>
-                                        </span>
-                                        <span><?php echo "Sign up with Google+" ?></span>
-                                    </a>
-                                    <a class="fb-icon-btn fb-btn-large btn-facebook" href="#" style="background-color: #55ACEE;">
-                                        <span class="icon-container">
-                                            <i class="icon fa fa-twitter fa-fw"></i>
-                                        </span>
-                                        <span><?php echo "Sign up with Twitter" ?></span>
-                                    </a>
-                                    <a class="fb-icon-btn fb-btn-large btn-facebook" href="#" style="background-color: #007BB6;">
-                                        <span class="icon-container">
-                                            <i class="icon fa fa-linkedin fa-fw"></i>
-                                        </span>
-                                        <span><?php echo "Sign up with Linkedin" ?></span>
-                                    </a>
+                                    <div class="btn-group" role="group" aria-label="Basic example" style="width:100%;margin-bottom: 1rem;">
+                                        <button type="button" class="btn btn-secondary" style="background-color: #55ACEE;padding: 7px 0px;"><?php echo $LANG['action-signup-with']?></button>
+                                        <button type="button" class="btn btn-secondary" style="background-color: #dd4b39;padding: 0px;"><i class="icon fa fa-google fa-fw" style="font-size: 24px;"></i></button>
+                                        <button type="button" class="btn btn-secondary" style="background-color: #55ACEE;padding: 0px;"><i class="icon fa fa-twitter fa-fw" style="font-size: 24px;"></i></button>
+                                        <button type="button" class="btn btn-secondary" style="background-color: #007BB6;padding: 0px;"><i class="icon fa fa-linkedin fa-fw" style="font-size: 24px;"></i></button>
+                                        <button type="button" class="btn btn-secondary" style="background-color: #F7931E;padding: 0px;"><i class="icon fa fa-instagram fa-fw" style="font-size: 24px;"></i></button>
+                                    </div>
                                 </p>
 
                                 <?php
@@ -321,7 +310,7 @@
 
                         <div class="opt-in">
                             <label for="user_receive_digest">
-                                <?php echo $LANG['label-signup-invite']; ?>
+                                <?php echo $LANG['label-affiliate-code']; ?>
                             </label>
                         </div>
 
