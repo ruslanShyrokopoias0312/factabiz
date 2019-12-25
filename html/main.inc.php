@@ -122,7 +122,7 @@
 
                         <input autocomplete="off" type="hidden" name="authenticity_token" value="<?php echo helper::getAuthenticityToken(); ?>">
 
-                        <span class="login100-form-title "><?php echo $LANG['page-login']; ?></span>
+                        <span class="login100-form-title " style="padding-bottom: 60px;"><?php echo $LANG['page-login']; ?></span>
 
                         <?php
 
@@ -167,10 +167,23 @@
                     </form>
 
                     <div class="login100-more">
-                        <div class="login100_content">
-                            <h1 class="mb-10">Create your own <?php echo APP_NAME; ?> App now!</h1>
-                            <p><?php echo $LANG['main-page-prompt-app']; ?></p>
+                        <div class="login100_content" style="width: 100%;">
+                            <h1 class="mb-10" style="font-size:32px">CURIOUS? JOIN US</h1>
+                            <img src="/img/qr_code.png" class="rounded mx-auto d-block" alt="QR Code">
+
+                            <div style="width:100%; margin-top: 20px;">
+                                <a href="#" style="">
+                                    <img alt='Download on the App Store' src='img/app_store_badge.png' style="width:49%"/>
+                                </a>
+                                <a href='https://play.google.com/store/apps/details?id=com.factabiz.app&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'  style="">
+                                    <img alt='Get it on Google Play' src='img/google-play-badge.png' style="width:49%"/>
+                                </a>
+                            </div>
+                            
+                            
+                            
                         </div>
+                            
                     </div>
 
                 </div>
