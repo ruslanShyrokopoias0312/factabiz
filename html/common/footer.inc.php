@@ -53,19 +53,59 @@
 
         <div class="wrap">
 
-            <ul id="footer-nav">
-
-                <li><a href="/about"><?php echo $LANG['footer-about']; ?></a></li>
-                <li><a href="/terms"><?php echo $LANG['footer-terms']; ?></a></li>
-                <li><a href="/gdpr"><?php echo $LANG['footer-gdpr']; ?></a></li>
-                <li><a href="/support"><?php echo $LANG['footer-support']; ?></a></li>
-                <li><a class="lang_link" href="javascript:void(0)"  data-toggle="modal" data-target="#langModal"><?php echo $LANG['lang-name']; ?></a></li>
-
-
-                <li id="footer-copyright">
-                    © <?php echo APP_YEAR; ?> <?php echo APP_TITLE; ?>
-                </li>
-            </ul>
+            <div id="footer-nav" class="mt-5 pt-5 pb-5 footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-xs-12">
+                            <h4 class="mt-lg-0 mt-sm-3">Link 1</h4>
+                            <ul class="m-0 p-0 list-group">
+                                <li>- <a href="/about"><?php echo $LANG['footer-about']; ?></a></li>
+                                <li>- <a href="#">iC-Cafe</a></li>
+                                <li>- <a href="#">iC-Cafe Map</a></li>
+                                <li>- <a href="#">Biz Connect</a></li>
+                                <li>- <a href="#">Facta POST</a></li>
+                                <li>- <a href="#">Factabiz Heroes</a></li>
+                                <li>- <a href="#">Social Heroes</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-xs-12">
+                            <h4 class="mt-lg-0 mt-sm-3">Link 2</h4>
+                            <ul class="m-0 p-0 list-group">
+                                <li>- <a href="#">Bengali</a></li>
+                                <li>- <a class="lang_link" href="javascript:void(0)"  data-toggle="modal" data-target="#langModal"><?php echo $LANG['lang-name']; ?></a></li>
+                                <li>- <a href="#">All Languages</a></li>
+                                <li>- <a href="/gdpr"><?php echo $LANG['footer-gdpr']; ?></a></li>
+                                <li>- <a href="#">Create Ad</a></li>
+                                <li>- <a href="#">Asian Version</a></li>
+                                <li>- <a href="#">Other Versions</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-xs-12">
+                            <h4 class="mt-lg-0 mt-sm-3">Link 3</h4>
+                            <ul class="m-0 p-0 list-group">
+                                <li>- <a href="#">Legal Services</a></li>
+                                <li>- <a href="#">Locker Service</a></li>
+                                <li>- <a href="#">Other Services</a></li>
+                                <li>- <a href="/terms"><?php echo $LANG['footer-terms']; ?></a></li>
+                                <li>- <a href="#">Cockies Policy</a></li>
+                                <li>- <a href="#">Help</a></li>
+                                <li>- <a href="/support"><?php echo $LANG['footer-support']; ?></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-xs-12">
+                        <h4 class="mt-lg-0 mt-sm-4">Location</h4>
+                        <p>22, Lorem ipsum dolor, consectetur adipiscing</p>
+                        <p class="mb-0"><i class="fa fa-phone mr-3"></i>(123) 456-7890</p>
+                        <p><i class="fa fa-envelope-o mr-3"></i>factabiz@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div id="footer-copyright" class="col">
+                        <p class="">© <?php echo APP_YEAR; ?> <?php echo APP_TITLE; ?></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
     </div>

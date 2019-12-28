@@ -167,8 +167,29 @@
                     </form>
 
                     <div class="login100-more">
-                        <div class="login100_content" style="width: 100%;">
-                            <h1 class="mb-10" style="font-size:32px">CURIOUS? JOIN US</h1>
+
+                        <?php 
+                            $search = new search($dbo);
+                            $result = $search->preload();
+                        ?>
+                        
+                        <ul class="list-group" style="background-color: #fff;width:18%;height: 100%;">
+                            <?php 
+                            foreach ($result['items'] as $key => $profile) {
+                                $profilePhotoUrl = "/img/profile_default_photo.png";
+
+                                if (strlen($profile['lowPhotoUrl']) != 0) {
+
+                                    $profilePhotoUrl = $profile['lowPhotoUrl'];
+                                } 
+                            ?>
+                                <li class="list-group-item" style=" background-color: initial; border: none; padding-bottom: 0px;"><img src="<?php echo $profilePhotoUrl; ?>" alt="Responsive image" style="width:40px; border-radius:20px;"></li>
+                            <?php 
+                            } 
+                            ?>
+                        </ul>
+                        <div class="login100_content" style="width: 82%; padding:11px;right:0">
+                            <h1 class="mb-10" style="font-size:30px">CURIOUS? JOIN US</h1>
                             <img src="/img/qr_code.png" class="rounded mx-auto d-block" alt="QR Code">
 
                             <div style="width:100%; margin-top: 20px;">
@@ -179,9 +200,6 @@
                                     <img alt='Get it on Google Play' src='img/google-play-badge.png' style="width:49%"/>
                                 </a>
                             </div>
-                            
-                            
-                            
                         </div>
                             
                     </div>
