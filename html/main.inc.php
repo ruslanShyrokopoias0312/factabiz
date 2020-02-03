@@ -189,7 +189,7 @@
                             ?>
                         </ul>
                         <div class="login100_content" style="width: 82%; padding:11px;right:0">
-                            <h1 class="mb-10" style="font-size:30px">CURIOUS? JOIN US</h1>
+                            <h1 class="mb-10" style="font-size:30px">CURIOUS? JOIN US.</h1>
                             <img src="/img/qr_code.png" class="rounded mx-auto d-block" alt="QR Code">
 
                             <div style="width:100%; margin-top: 20px;">
